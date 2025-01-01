@@ -16,7 +16,7 @@
 
 
 # Use Debian 12 w/ faster package updates: https://packages.debian.org/bookworm-backports/
-FROM python:3.11-slim-bookworm
+FROM python:3.14.0a3-slim-bookworm
 
 LABEL name="archivebox" \
     maintainer="Nick Sweeting <dockerfile@archivebox.io>" \
